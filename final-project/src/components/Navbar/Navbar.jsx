@@ -2,10 +2,10 @@ import React from "react";
 import styles from "./Navbar.module.css";
 
 export const Navbar = () => {
-  return 
+  return (
     <nav className={styles.navbar}>
         <a className={styles.title} href="/">
-        Portfolio
+        Alejandro Silva
         </a>
         <div className={styles.menu}>
             <ul className={styles.menuItems}>
@@ -24,5 +24,5 @@ export const Navbar = () => {
             </ul>
         </div>
     </nav>
-    
+  ); 
 };
