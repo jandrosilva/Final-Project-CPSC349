@@ -1,10 +1,10 @@
 :root {
     /*Colours*/
-    --color-text: #fff;
-    --color-primary: #576cbc;
-    --color-secondary: #19376d;
-    --color-dark: #0b2447;
-    --color-bg: #04152d;
+    --color-text: #FCECDD;
+    --color-primary: #F0E3CA;
+    --color-secondary: #A35709;
+    --color-dark: #7d4b0116;
+    --color-bg: #1B1A17;
 
     /*Fonts*/
     --font-robot: "Bebas Neue", sans-serif;

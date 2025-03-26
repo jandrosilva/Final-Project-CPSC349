@@ -1,4 +1,5 @@
 @import "../../vars.css";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*Customizing the Navigation Bar*/
 .navbar {
@@ -9,12 +10,15 @@
     padding-top: 61px;
     z-index: 2;
     margin: 0 10%;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 /*Customizing the Title*/
 .title {
+    font-family: "Roboto";
+    display: flex;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
     text-decoration: none;
     color: var(--color-text);
 }
@@ -33,4 +37,6 @@
 .menuItems a {
     font-size: 25px;
     color: var(--color-text);
+    text-decoration: none;
 }
+
