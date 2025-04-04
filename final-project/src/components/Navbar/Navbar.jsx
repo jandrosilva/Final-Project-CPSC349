@@ -11,7 +11,7 @@ export const Navbar = () => {
         <div className={styles.menu}>
             <img 
             className={styles.menuBtn} 
-            src={getImageUrl("nav/menuIcon.png")} 
+            src={getImageUrl("/nav/menuIcon.png")} 
             alt= "menu-button"
             />
             <ul className={styles.menuItems}>
