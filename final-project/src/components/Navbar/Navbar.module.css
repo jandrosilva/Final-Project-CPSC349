@@ -15,9 +15,9 @@
 
 /*Customizing the Title*/
 .title {
-    font-family: "Roboto";
+    font-family: 'Morelan', sans-serif;
     display: flex;
-    font-size: 30px;
+    font-size: 45px;
     font-weight: 700;
     text-decoration: none;
     color: var(--color-text);
@@ -40,3 +40,43 @@
     text-decoration: none;
 }
 
+@media screen and (max-width: 830px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        position: absolute;
+        right: 0;
+        margin-right: 10%;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 11px;
+    }
+
+    .menuBtn {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menuItems {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+        border-radius: 10px;
+        background: rgb(61, 58, 52);
+        background: linear-gradient(
+            0deg, rgba(61, 58, 52, 0.2) 0%,
+             rgba(61, 58, 52, 1) 100%
+        );
+        padding: 24px 33px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    }
+}
+
+.menuOpen {
+    display: flex;
+    z-index: 1;
+}

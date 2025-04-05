@@ -9,3 +9,14 @@
     /*Fonts*/
     --font-robot: "Bebas Neue", sans-serif;
 }
+
+@font-face {
+    font-family: 'Morelan';
+    src: 
+      url('../assets/fonts/Morelan.woff2') format('woff2'),
+      url('../assets/fonts/Morelan.woff') format('woff'),
+      url('../assets/fonts/Morelan.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; /* Optional: prevents invisible text during load */
+  }
