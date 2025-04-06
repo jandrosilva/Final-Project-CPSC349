@@ -1,0 +1,35 @@
+[
+    {
+        "role": "Undergraduate Student",
+        "organization": "California State University-Fullerton",
+        "startDate": "Aug, 2024",
+        "endDate": "May, 2026",
+        "experiences": [
+            "Add Experiences",
+            "Here."
+        ],
+        "imageSrc": "history/csufLogo.png"
+    },
+    {
+        "role": "Associate's Graduate",
+        "organization": "Santa Ana & Santiago Canyon College",
+        "startDate": "Aug, 2014",
+        "endDate": "May, 2024",
+        "experiences": [
+            "Add Experiences",
+            "Here."
+        ],
+        "imageSrc": "history/rsccdLogo.png"
+    },
+    {
+        "role": "Library Clerk",
+        "organization": "Orange Public Library",
+        "startDate": "Feb, 2022",
+        "endDate": "Present",
+        "experiences": [
+            "Add Experiences",
+            "Here."
+        ],
+        "imageSrc": "history/orangeLogo.png"
+    }
+]

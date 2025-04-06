@@ -2,8 +2,8 @@
     /*Colours*/
     --color-text: #FCECDD;
     --color-primary: #d6a242;
-    --color-secondary: #A35709;
-    --color-dark: #302516d5;
+    --color-secondary: rgba(59, 44, 30, 0.8);
+    --color-detail: #302516d5;
     --color-bg: #1B1A17;
 
     /*Fonts*/
