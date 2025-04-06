@@ -1,5 +1,6 @@
 @import "../../vars.css";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 
 /*Customizing the Navigation Bar*/
 .navbar {
@@ -17,62 +18,199 @@
 .title {
     font-family: 'Morelan', sans-serif;
     display: flex;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
     text-decoration: none;
     color: var(--color-text);
+    flex: 1;
+    min-width: max-content;
+    margin-right: 10px;
+}
+
+/* Navigation container */
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+    gap: 40px; /* Added gap between menu and social icons */
 }
 
 /*Customizing the Navigation Menu*/
 .menu {
     display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-.menuItems{
+.menuBtn{
+    display: none;
+}
+
+.menuItems {
     display: flex;
     gap: 47px;
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menuItems li {
+    position: relative; /* Add this to contain the underline */
 }
 
 .menuItems a {
     font-size: 25px;
     color: var(--color-text);
     text-decoration: none;
+    padding: 5px 0;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    display: inline-block; /* Add this for proper sizing */
 }
 
-@media screen and (max-width: 830px) {
+.menuItems a:hover {
+    color: var(--color-text);
+}
+
+.menuItems a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-text);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.menuItems a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.menuItems a:active {
+    transform: translateY(1px);
+}
+
+/* Social icons container */
+.socialIcons {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    justify-content: flex-end;
+    min-width: max-content;
+}
+
+.socialIcons a {
+    color: var(--color-text);
+    font-size: 25px;
+    transition: transform 0.3s ease;
+}
+
+.socialIcons a:hover {
+    transform: translateY(-2px);
+}
+
+/*Desktop Half-screen*/
+@media screen and (max-width: 1200px) {
     .navbar {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: stretch;
+        padding-top: 40px;
+    }
+
+    .title {
+        justify-content: center;
+        margin-bottom: 20px;
+        text-align: center; /* Center the title */
+    }
+
+    .navContainer {
+        flex-direction: column;
+        gap: 20px;
+        align-items: stretch;
     }
 
     .menu {
-        position: absolute;
-        right: 0;
-        margin-right: 10%;
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 11px;
+        order: 1;
+        justify-content: center;
+        margin-right: 0;
+        position: relative;
     }
 
     .menuBtn {
-        display: block;
+        display: none;
+    }
+
+    .socialIcons {
+        display: flex;
+        order: 2;
+        justify-content: center;
+        padding: 20px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: 20px;
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: stretch;
+        padding-top: 30px;
+    }
+
+    .navContainer {
+        flex-direction: column;
+        gap: 20px;
+        align-items: stretch;
+        position: relative;
+    }
+
+    .menu {
+        order: 1;
+        justify-content: flex-end;
+        margin-right: 0;
+        position: relative;
+    }
+
+    .menuBtn {
+        display: flex;
         cursor: pointer;
+        margin-left: auto; /* Pushes button to the right */
+        position: relative;
+        z-index: 2;
     }
 
     .menuItems {
         display: none;
         flex-direction: column;
         align-items: center;
-        gap: 13px;
+        gap: 15px;
         border-radius: 10px;
         background: rgb(61, 58, 52);
         background: linear-gradient(
             0deg, rgba(61, 58, 52, 0.2) 0%,
-             rgba(61, 58, 52, 1) 100%
+            rgba(61, 58, 52, 1) 100%
         );
         padding: 24px 33px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+        position: absolute;
+        top: 100%;
+        right: 0;
+        margin-top: 10px;
+    }
+
+    .socialIcons {
+        display: flex;
+        order: 2;
+        justify-content: center;
+        padding: 15px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: 20px;
     }
 }
 

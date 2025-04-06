@@ -20,11 +20,11 @@
 }
 
 .title {
-    font-size: 72px;
-    font-weight: 900;
+    font-size: 70px;
+    font-weight: 100px;
     margin-top: 33px;
     margin-bottom: 33px;
-    font-family: var(--font-roboto);
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
     background: linear-gradient(
         90deg,
         rgba(255, 255, 255, 1) 70%,
@@ -35,8 +35,8 @@
 }
 
 .description {
-    font-size: 30px;
-    font-family: var(--font-roboto);
+    font-size: 20px;
+    font-family: "Nunito";
     margin-bottom: 52px;
     margin-right: 40px;
 }
@@ -53,6 +53,7 @@
 }
 
 .heroImg {
+    width: 37vw;
     z-index: 1;
 
     animation-name: floating;
@@ -80,6 +81,10 @@
 
     .content {
         align-items: center;
+    }
+
+    .title {
+        text-align: center;
     }
 }
 
