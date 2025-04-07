@@ -1,5 +1,8 @@
 export const getImageUrl = (path) => {
-    return `/assets/${path}`; // Simple relative path
-  };
+  if (import.meta.env.PROD) {
+    return `/assets/${path}`; // Production path
+  }
+  return `/assets/${path}`; // Same for development
+};
 
   console.log("import.meta.url:", import.meta.url);
