@@ -29,7 +29,7 @@
 }
 
 .skills {
-    width: 45%;
+    width: 30%;
     display: flex;
     flex-wrap: wrap;
     gap: 37px;
@@ -63,7 +63,7 @@
 }
 
 .history {
-    width: 45%;
+    width: 55%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -101,7 +101,7 @@
 .historyItemDetails ul {
     margin-top: 6px;
     list-style-position: inside;
-    font-size: 25px;
+    font-size: 18px;
     list-style-type: disc;
     margin-left: 17px;
 }

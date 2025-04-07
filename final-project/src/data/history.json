@@ -3,10 +3,11 @@
         "role": "Undergraduate Student",
         "organization": "California State University-Fullerton",
         "startDate": "Aug, 2024",
-        "endDate": "May, 2026",
+        "endDate": "Aug, 2026",
         "experiences": [
-            "Add Experiences",
-            "Here."
+            "Specializing in full-stack software development, I’m advancing my expertise in scalable architecture (Agile/design patterns), algorithm optimization, and operating systems (multithreading, memory management).",
+            "Applied advanced concepts into real projects, like building my portfolio with HTML, CSS, React, and Vite, and creating REST APIs.",
+            "Collaborated on team-based coding projects using Git/GitHub, following Agile/SCRUM workflows."
         ],
         "imageSrc": "history/csufLogo.png"
     },
@@ -16,8 +17,9 @@
         "startDate": "Aug, 2014",
         "endDate": "May, 2024",
         "experiences": [
-            "Add Experiences",
-            "Here."
+            "Developed Programming Fundamentals: C++ (OOP, memory management), Java (algorithms), Data Structures, and Algorithms (e.g., Arrays, Linked Lists, Trees)",
+            "Worked on Collaborative Problem-Solving projects and participated in peer code reviews.",
+            "Awarded $1000 Kiwanis Book Club Scholarship for academic excellence in Computer Science."
         ],
         "imageSrc": "history/rsccdLogo.png"
     },
@@ -27,8 +29,9 @@
         "startDate": "Feb, 2022",
         "endDate": "Present",
         "experiences": [
-            "Add Experiences",
-            "Here."
+            "Assisted 50+ daily patrons with technical troubleshooting (e.g., Libby e-book reading, printer setup), refining user support skills.",
+            "Trained staff on new digital lending platforms, demonstrating adaptability to new technologies.",
+            "Managed database systems for cataloging 10,000+ books, ensuring accurate metadata tagging (similar to working with APIs/databases)"
         ],
         "imageSrc": "history/orangeLogo.png"
     }
