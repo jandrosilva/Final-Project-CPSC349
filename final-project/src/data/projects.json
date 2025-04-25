@@ -1,10 +1,10 @@
 [
     {
-        "title": "Simple Shell Project",
+        "title": "ATM Simulation",
         "imageSrc": "projects/project.png",
-        "description": "A Linux-based shell emulator that replicates several essential Windows cmd.exe commands—including dir, help, vol, path, tasklist, notepad (using nano), echo, color, ping, exit, and cls—providing a familiar command-line experience for users transitioning between Windows and Unix-like systems.",
-        "skills": ["Unix", "CPP"],
-        "source": "https://github.com/Supernova1114/CPSC-351-Simple-Shell"
+        "description": "",
+        "skills": ["CPP", "Mapping", "UI-Design"],
+        "source": "https://github.com/jandrosilva/CPSC362-Project"
     },
 
     {
@@ -13,13 +13,4 @@
         "description": "Three interactive projects showcasing various searching and sorting algorithms with visual demonstrations and code implementations.",
         "skills": ["Sorting", "Searching", "CPP"],
         "source": "https://github.com/jandrosilva/Project1_CPSC335"
-    },
-
-    {
-        "title": "Threads Project",
-        "imageSrc": "projects/project.png",
-        "description": "A multithreaded implementation of Merge Sort designed to efficiently sort integer arrays by leveraging parallel processing, improving performance through concurrent execution.",
-        "skills": ["Multithreading", "C", "Merge-Sort"],
-        "source": "https://github.com/Supernova1114/CPSC-351-Simple-Shell"
     }
-]

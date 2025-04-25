@@ -43,13 +43,30 @@
 
 .contactBtn {
     text-decoration: none;
-    background-color: var(--color-primary);
+    background: linear-gradient(
+        to bottom,
+        var(--color-primary-light, #6ec1e4),
+        var(--color-primary)
+    );
     color: var(--color-text);
     border-radius: 100px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    border: 2px solid var(--color-shadow, #333);
+    display: inline-block;
+    text-align: center;
     font-size: 30px;
     font-weight: 600;
     padding: 17px 26px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.contactBtn:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.contactBtn:active{
+    transform: translateY(2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);    
 }
 
 .heroImg {

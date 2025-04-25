@@ -29,7 +29,7 @@ export const Contact = () => {
                     src={getImageUrl("contact/linkedinIcon.png")} 
                     alt="LinkedIn icon"
                 />
-                <a href="https://www.linkedin.com/in/alejandrosilvacampos">linkedin.com/in/alejandrosilvacampos</a> 
+                <a href="https://www.linkedin.com/in/alejandrosilvacampos" target="_blank">linkedin.com/in/alejandrosilvacampos</a> 
             </li>
         </ul>
     </footer>
