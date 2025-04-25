@@ -1,8 +1,8 @@
-export const getImageUrl = (path) => {
-  if (import.meta.env.PROD) {
-    return `/assets/${path}`; // Production path
-  }
-  return `/assets/${path}`; // Same for development
-};
+const images = import.meta.glob('./assets/**/*.{png,jpg,jpeg,svg}', {
+  eager: true,
+  import: 'default'
+});
 
-  console.log("import.meta.url:", import.meta.url);
+export const getImageUrl = (path) => {
+  return images[`./assets/${path}`];
+};
