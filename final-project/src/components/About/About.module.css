@@ -39,7 +39,7 @@
 .aboutItem {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     border-radius: 20px;
     list-style: none;
     padding: 25px;
@@ -51,6 +51,8 @@
     background-size: 0 100%;
     background-repeat: no-repeat;
     transition: 0.4s;
+    max-height: 300px;
+    overflow-y: auto;
 }
 
 .aboutItem:hover {
@@ -60,11 +62,15 @@
 
 .aboutItem h3 {
     font-size: 25px;
-    font-weight: 600;
+    text-decoration: underline;
+    font-weight: 800;
+    margin-bottom: 10px; 
+    flex-shrink: 1;
 }
 
 .aboutItem p {
-    font-size: 25px;
+    font-size: 19px;
+    flex-grow: 1;
 }
 
 @media screen and (max-width: 830px) {
