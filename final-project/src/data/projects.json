@@ -10,12 +10,12 @@
     },
 
     {
-        "title": "Algorithm Implementation Projects",
+        "title": "Min-Swap Algorithm Project",
         "imageSrc": "projects/project.png",
-        "description": "Three interactive projects showcasing various searching and sorting algorithms with visual demonstrations and code implementations.",
+        "description": "The algorithm project takes an even-sized row of unique integers, checks for adjacent pairs based on predefined mappings, and swaps them if necessary to ensure each pair is next to each other, while counting the total number of swaps.",
         "skills": ["Sorting", "Searching", "CPP"],
-        "fulldescription": "This project features three distinct algorithm implementations developed in C++ to solve real-world problems with efficient solutions. The first algorithm focuses on sorting an array of integers such that each integer is paired with its corresponding value using an unordered map for fast lookups. The algorithm ensures optimal time complexity of O(n) by leveraging efficient operations like find() and swap(). The second algorithm determines the best starting city for a road trip by analyzing distances to the next cities and the available fuel at each city. It evaluates feasible routes and identifies the optimal starting city based on the fuel balance and total trip requirements. The final algorithm manages and analyzes two individuals' schedules to identify available time slots for a meeting. By computing the intersection of free periods and considering the required meeting duration, it outputs suitable meeting times. These algorithms showcase my skills in C++ programming and problem-solving, utilizing efficient data structures and logical reasoning to tackle a variety of challenges.",
-        "screenshots": ["screenshots/atmLogIn.png", "screenshots/atmWelcome.png"],
+        "fulldescription": "This C++ program prompts the user to input integer values to fill an array. The main objective is to sort the array such that each integer is positioned next to its corresponding paired value. To achieve this, the algorithm utilizes an unordered map to track the positions of each integer and its pair. The overall time complexity is O(n), leveraging the unordered map for efficient lookups, the find() function to locate pair values, and the swap() function to rearrange elements in constant time (O(1)). This approach ensures a swift and effective sorting of paired integers in the array.",
+        "screenshots": ["screenshots/algorithm1start.png", "screenshots/algorithm1fill.png", "screenshots/algorithm1before.png", "screenshots/algorithm1after.png", "screenshots/algorithm1counter.png"],
         "source": "https://github.com/jandrosilva/Project1_CPSC335"
     }
 ]
