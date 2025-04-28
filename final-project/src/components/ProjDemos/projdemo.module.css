@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 18px 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    gap: 24px;
+}
+
+.screenshotContainer {
+    flex: 1 1 400px;
+    min-width: 300px;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.descriptionContainer {
+    flex: 1 1 400px;
+    min-width: 300px;
+    max-width: 600px;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(
+        to top,
+        var(--color-border) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    padding: 18px 24px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.screenshot {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+.title {
+    font-size: 28px;
+    color: var(--color-text);
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.description {
+    margin-top: 6px;
+    color: var(--color-text);
+    text-indent: 2em;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 10px; /* extra breathing room */
+}
+
+.link {
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 18px;
+    font-weight: 600;
+    background: linear-gradient(
+        to bottom,
+        var(--color-primary-light, #7a632d),
+        var(--color-primary)
+    );
+    border-radius: 100px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    border: 2px solid var(--color-shadow, #333);
+    display: inline-block;
+    text-align: center;
+    padding: 8px 22px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 12px 16px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .screenshotContainer,
+    .descriptionContainer {
+        max-width: 100%;
+    }
+
+    .links {
+        justify-content: center;
+    }
+}

@@ -1,13 +1,17 @@
 :root {
-    /*Colours*/
-    --color-text: #FCECDD;
-    --color-primary: #d6a242;
-    --color-secondary: rgba(59, 44, 30, 0.8);
-    --color-detail: #302516d5;
-    --color-bg: #1B1A17;
+  --color-bg: #f5f0e6;
+  --color-surface: #e0d7cd;
+  --color-text: #3e3229;
+  --color-secondary-text: #7c6f64;
+  --color-primary: #f4a259;
+  --color-primary-light: #f8c28d;
+  --color-secondary: #f2b8a0;
+  --color-border: #c8b6a6;
+  --color-shadow: #0000001a;
+
 
     /*Fonts*/
-    --font-robot: "Bebas Neue", sans-serif;
+  --font-robot: "Bebas Neue", sans-serif;
 }
 
 @font-face {

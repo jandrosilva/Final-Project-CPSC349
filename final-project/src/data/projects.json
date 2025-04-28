@@ -2,8 +2,10 @@
     {
         "title": "ATM Simulation",
         "imageSrc": "projects/project.png",
-        "description": "A command-line ATM simulation that allows users to securely log in with a card number and PIN, then perform basic banking actions such as checking balances, depositing, and withdrawing funds. Built to demonstrate core concepts of user interaction, input validation, and session management in a terminal environment.",
+        "description": "A command-line ATM simulation that performs basic banking actions such as checking balances, depositing, and withdrawing funds.",
         "skills": ["CPP", "Mapping", "UI-Design"],
+        "fulldescription": "This software development project involves building an ATM Machine Simulator that replicates the core functionalities of a real-world ATM. The system will begin by validating user credentials through ATM card authentication (simulated card number and PIN verification) before granting access to transaction options. Once authenticated, the user can perform key banking operations, including depositing funds, withdrawing cash, checking account balance(s), and updating their PIN number, with each transaction securely updating the backend account data. The application will feature a user-friendly console, simulate basic error handling (e.g., insufficient funds, incorrect PIN attempts), and maintain transaction logs for accountability, providing a realistic and interactive ATM experience for testing or demonstration purposes.",
+        "screenshots":["screenshots/atmLogIn.png", "screenshots/atmWelcome.png", "screenshots/atmAccounts.png", "screenshots/atmBalance.png", "screenshots/atmGoodbye.png"],
         "source": "https://github.com/jandrosilva/CPSC362-Project"
     },
 
@@ -12,6 +14,8 @@
         "imageSrc": "projects/project.png",
         "description": "Three interactive projects showcasing various searching and sorting algorithms with visual demonstrations and code implementations.",
         "skills": ["Sorting", "Searching", "CPP"],
+        "fulldescription": "This project features three distinct algorithm implementations developed in C++ to solve real-world problems with efficient solutions. The first algorithm focuses on sorting an array of integers such that each integer is paired with its corresponding value using an unordered map for fast lookups. The algorithm ensures optimal time complexity of O(n) by leveraging efficient operations like find() and swap(). The second algorithm determines the best starting city for a road trip by analyzing distances to the next cities and the available fuel at each city. It evaluates feasible routes and identifies the optimal starting city based on the fuel balance and total trip requirements. The final algorithm manages and analyzes two individuals' schedules to identify available time slots for a meeting. By computing the intersection of free periods and considering the required meeting duration, it outputs suitable meeting times. These algorithms showcase my skills in C++ programming and problem-solving, utilizing efficient data structures and logical reasoning to tackle a variety of challenges.",
+        "screenshots": ["screenshots/atmLogIn.png", "screenshots/atmWelcome.png"],
         "source": "https://github.com/jandrosilva/Project1_CPSC335"
     }
 ]

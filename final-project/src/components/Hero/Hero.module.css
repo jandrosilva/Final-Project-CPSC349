@@ -26,9 +26,9 @@
     margin-bottom: 33px;
     font-family: Geneva, Tahoma, Verdana, sans-serif;
     background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 1) 70%,
-        rgba(255, 255, 255, 0) 140%
+        to right,
+        var(--color-text) 0%,
+        var(--color-secondary-text) 170%
     );
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -37,7 +37,7 @@
 .description {
     font-size: 20px;
     font-family: "Nunito";
-    margin-bottom: 52px;
+    margin-bottom: 40px;
     margin-right: 40px;
 }
 
@@ -45,7 +45,7 @@
     text-decoration: none;
     background: linear-gradient(
         to bottom,
-        var(--color-primary-light, #6ec1e4),
+        var(--color-primary-light, #7a632d),
         var(--color-primary)
     );
     color: var(--color-text);
@@ -54,9 +54,9 @@
     border: 2px solid var(--color-shadow, #333);
     display: inline-block;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
-    padding: 17px 26px;
+    padding: 7px 16px;
 }
 
 .contactBtn:hover{
@@ -70,7 +70,7 @@
 }
 
 .heroImg {
-    width: 37vw;
+    width: 27vw;
     z-index: 1;
 
     animation-name: floating;
@@ -107,28 +107,28 @@
 
 .topBlur {
     position: absolute;
-    width: 50vw;
-    height: 50vw;
+    width: 80vw;
+    height: 60vw;
     min-width: 350px;
     min-width: 350px;
     top: -128px;
     left: -10vw;
     border-radius: 764px;
-    background: rgba(37, 36, 32, 0.8);
+    background: var(--color-surface);
     filter: blur(100px);
     z-index: 0;
 }
 
 .bottomBlur {
     position: absolute;
-    width: 70vw;
-    height: 50vw;
+    width: 80vw;
+    height: 60vw;
     min-width: 350px;
     min-width: 250px;
-    top: 246px;
+    top: 146px;
     right: -25vw;
     border-radius: 764px;
-    background: rgba(37, 36, 32, 0.8);
+    background: var(--color-surface);
     filter: blur(100px);
     z-index: 0;
 }

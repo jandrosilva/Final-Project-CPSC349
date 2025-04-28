@@ -23,6 +23,7 @@ export const ProjectCard = ({ project : {title, imageSrc, description, skills, s
     </ul>
     <div className={styles.links}>
         <a href={source} target="_blank" className={styles.link}>Source</a>
+        <a href="./project-breakdown.html" className={styles.link}>Demo</a>
     </div>
     </div>
     );

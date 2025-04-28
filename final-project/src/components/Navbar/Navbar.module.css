@@ -33,7 +33,7 @@
     align-items: center;
     justify-content: center;
     flex: 2;
-    gap: 40px; /* Added gap between menu and social icons */
+    gap: 40px; 
 }
 
 /*Customizing the Navigation Menu*/

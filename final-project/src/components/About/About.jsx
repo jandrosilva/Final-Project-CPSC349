@@ -7,6 +7,12 @@ export const About = () => {
         <section className={styles.container} id="about">
             <h2 className={styles.title}>About</h2>
             <div className={styles.content}>
+                <p className={styles.description}>Hi! I’m a first-generation Hispanic student and aspiring full-stack developer with a passion for building applications that make a real difference in people’s lives. I’m currently pursuing my Bachelor’s degree in Computer Science at Cal State Fullerton, after returning to school with a renewed sense of purpose during the pandemic.
+                    My path into tech hasn’t been traditional. I originally stepped away from college in 2015, unsure of what I wanted to pursue. But watching family members thrive in STEM careers reignited my interest and helped me realize that software development could be a powerful tool to support and uplift my community.
+                    Before tech, I built a strong foundation in real-world problem solving — with 9+ years of customer service experience and 3+ years in public service. I currently work for the City of Orange as a Library Clerk, where I’ve seen first-hand how access to information and technology can change lives.
+                    Now, I’m translating that experience into code. I'm focused on learning full-stack development, designing and deploying modern web applications, and ultimately using my skills to build tools that serve the public good. I’m especially interested in projects that support education, accessibility, and local communities.</p>
+            </div>
+            <div className={styles.content}>
                 <img 
                     src={getImageUrl("about/aboutImage.png")} 
                     alt="Memeoji in suit"

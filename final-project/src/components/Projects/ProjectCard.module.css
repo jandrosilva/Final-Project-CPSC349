@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    margin: 20px;
     background: linear-gradient(
         180deg,
         var(--color-secondary) 0%,
@@ -11,8 +12,8 @@
         );
     box-shadow: 0 16px 14px 0 #3b3934;
     padding: 18px 24px;
-    width: 360px;
-    height: 700px;
+    width: 500px;
+    height: 760px;
     overflow: hidden;
     box-sizing: border-box;
 }
@@ -48,12 +49,12 @@
 }
 
 .skill {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     border-radius: 100px;
-    background: var(--color-primary);
+    background: var(--color-secondary);
     opacity: 92%;
-    padding: 2px 22px;
+    padding: 4px 22px;
 }
 
 .links {
@@ -70,7 +71,7 @@
     font-weight: 600;
     background: linear-gradient(
         to bottom,
-        var(--color-primary-light, #6ec1e4),
+        var(--color-primary-light, #7a632d),
         var(--color-primary)
     );
     border-radius: 100px;
