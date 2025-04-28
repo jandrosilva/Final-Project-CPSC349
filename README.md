@@ -8,10 +8,18 @@ Responsive Design
 🚀 Features
 
 ✔ Single-Page Layout – Clean, intuitive navigation with a dynamic navbar (About, Experience, Projects, Contact)
+
 ✔ Project Breakdowns – Detailed project pages for deeper exploration (accessible via "Demo" buttons)
+
 ✔ Mobile-First Design – Fully responsive across all screen sizes
+
 ✔ Quick Access Resume – One-click PDF resume viewer
+
 ✔ Social Links – Connect via GitHub, Indeed, and Email (available in header & footer)
+
+🌐 Live Demo
+(https://alejandrosilva.netlify.app/)
+
 🖥️ Pages
 
     Portfolio Page – Main hub featuring:
@@ -42,7 +50,7 @@ Responsive Design
 
     Styling: CSS3
 
-    Deployment: [Your Hosting Platform]
+    Deployment: Netlify
     
 🛠️ Local Setup Guide
 
