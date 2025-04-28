@@ -9,5 +9,13 @@ export default defineConfig({
     modules: {
       localsConvention: "camelCase",
     }
+  },
+  build: {
+    rollupOptions: {
+      input: {
+        main: './index.html', 
+        projectBreakdown: './project-breakdown.html', 
+      }
+    }
   }
 })
